@@ -12,6 +12,8 @@ phases:
   pre_build:
     commands:
       - echo Entered the pre_build phase...
+      - env
+      - which mvn
   build:
     commands:
       - echo Entered the build phase...
